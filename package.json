@@ -1,0 +1,23 @@
+{
+  "name": "iframe-message-pipe",
+  "version": "0.0.4",
+  "main": "dist/iframe-message-pipe.umd.js",
+  "module": "dist/iframe-message-pipe.mjs",
+  "typings": "dist/iframe-message-pipe.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "build:watch": "vite build --watch",
+    "pushnpm": "npm publish --registry https://registry.npmjs.org"
+  },
+  "keywords": ["iframe", "postMessage", "parent page", "child page", "double-ended"],
+  "author": "",
+  "license": "MIT",
+  "description": "A two-way messaging channel between parent and child pages, based on the postMessage API.",
+  "devDependencies": {
+    "vite": "^6.0.3",
+    "vite-plugin-dts": "^4.3.0"
+  }
+}
